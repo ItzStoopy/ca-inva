@@ -1,0 +1,39 @@
+body 
+{background-color:lightyellow;}
+h1 
+{
+color: bisque;
+background-color:rosybrown;
+}
+#show_sketch
+{
+    float: right;
+}
+canvas
+{
+border:5px solid lightcoral;
+border-radius:20px;
+animation-name:oui-oui;
+animation-duration: 4s;
+margin-top:220px;
+animation-iteration-count: infinite ;
+}
+@keyframes oui-oui{
+from {box-shadow:1px 1px 38px lightcoral;}
+to{box-shadow:1px 1px 38px rgb(128, 180, 240);}
+}
+p
+{padding-top:10px;
+font-size:25px;
+color:lightsalmon;
+}
+#score {
+margin: left 12px;
+
+}
+#score {
+    margin-right: 200px;
+    }
+    #timer {
+        margin-left: 200px;
+        }
